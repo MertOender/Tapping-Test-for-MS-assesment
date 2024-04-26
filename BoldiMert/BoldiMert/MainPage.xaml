@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoldiMert.MainPage">
+
+    <Grid BackgroundColor="Black">
+        <Label x:Name="RESULTS" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+        <Label x:Name="SNR" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="15" Margin="50"/>
+        <Label x:Name="Drop" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="15" Margin="100"/>
+        <Label x:Name="AVG" Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="15" Margin="150"/>
+            <Button x:Name="Start" Text="Start" FontSize="20" VerticalOptions="Center" Clicked="Start_Clicked"/>
+        
+    </Grid>
+    
+    <!--<Label x:Name="Result" Text ="Hi" HorizontalTextAlignment="Center" VerticalOptions="C" TextColor="White" FontSize="14"></Label>-->
+
+</ContentPage>
